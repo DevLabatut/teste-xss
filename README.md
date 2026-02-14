@@ -18,13 +18,13 @@ Projeto simples em HTML com JavaScript embutido para demonstrar as diferenças e
 * Demonstração de como conteúdo pode ser interpretado como HTML.
 * Exemplo de como dados poderiam ser enviados para um servidor usando `fetch`.
 
-## Tecnologias utilizadas
+## Tecnologias
 
 * HTML5
 * CSS
 * JavaScript puro (sem bibliotecas externas)
 
-## Estrutura do projeto
+## Estrutura do Projeto
 
 ```
 teste-xss/
@@ -35,7 +35,7 @@ teste-xss/
 
 ## Como usar
 
-Clone o repositório:
+Clone o projeto:
 
 ```
 git clone https://github.com/DevLabatut/teste-xss.git
