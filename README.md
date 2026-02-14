@@ -6,8 +6,6 @@ Projeto simples em HTML e JavaScript para demonstrar a diferença entre **innerH
 
 <img src="preview.png" width="400">
 
----
-
 ## Funcionalidades
 
 * Campo para digitação de texto pelo usuário.
@@ -19,15 +17,11 @@ Projeto simples em HTML e JavaScript para demonstrar a diferença entre **innerH
 * Validação simples de campo vazio.
 * Demonstração prática de como conteúdo pode ser interpretado como HTML.
 
----
-
 ## Tecnologias
 
 * HTML5
 * CSS
 * JavaScript puro (sem bibliotecas externas)
-
----
 
 ## Estrutura do Projeto
 
@@ -37,8 +31,6 @@ teste-xss/
 ├─ preview.png
 └─ index.html
 ```
-
----
 
 ## Como usar
 
@@ -62,16 +54,12 @@ index.html
 
 Digite qualquer conteúdo e clique em **Testar** para ver a diferença entre os métodos.
 
----
-
 ## Observações
 
 * Projeto feito apenas para aprendizado e demonstração.
 * Não possui backend ou armazenamento de dados.
 * Ideal para entender riscos básicos ao inserir conteúdo em páginas web.
 * Nunca utilize `innerHTML` com dados do usuário sem validação ou sanitização.
-
----
 
 ## Autor
 
