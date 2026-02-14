@@ -1,6 +1,6 @@
-## Teste XSS — innerHTML vs innerText vs textContent
+# Teste XSS — innerHTML vs innerText vs textContent
 
-Projeto simples em HTML com JavaScript embutido para demonstrar as diferenças entre innerHTML, innerText e textContent. O exemplo mostra como entradas do usuário podem impactar a página e evidenciar riscos básicos de XSS (Cross-Site Scripting).
+Projeto simples em HTML com JavaScript embutido para demonstrar as diferenças entre `innerHTML`, `innerText` e `textContent`, mostrando como entradas do usuário podem afetar a página e evidenciar riscos básicos de **XSS (Cross-Site Scripting)**.
 
 ## Preview
 
@@ -9,21 +9,22 @@ Projeto simples em HTML com JavaScript embutido para demonstrar as diferenças e
 ## Funcionalidades
 
 * Campo para digitação de texto pelo usuário.
-* Exibição do resultado usando:
+* Exibição do conteúdo usando:
 
   * `innerHTML`
   * `innerText`
   * `textContent`
 * Validação simples de campo vazio.
-* Demonstração prática de como conteúdo pode ser interpretado como HTML.
+* Demonstração de como conteúdo pode ser interpretado como HTML.
+* Exemplo de como dados poderiam ser enviados para um servidor usando `fetch`.
 
-## Tecnologias
+## Tecnologias utilizadas
 
 * HTML5
 * CSS
 * JavaScript puro (sem bibliotecas externas)
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```
 teste-xss/
@@ -40,7 +41,7 @@ Clone o repositório:
 git clone https://github.com/DevLabatut/teste-xss.git
 ```
 
-Entre na pasta do projeto:
+Entre na pasta:
 
 ```
 cd teste-xss
@@ -52,18 +53,32 @@ Abra o arquivo no navegador:
 index.html
 ```
 
-Digite qualquer conteúdo e clique em **Testar** para ver a diferença entre os métodos.
+Digite um conteúdo e clique em **Testar** para ver as diferenças entre os métodos.
 
-## Observações
+## Exemplos para teste
 
-* Projeto feito apenas para aprendizado e demonstração.
+Você pode testar entradas como:
+
+```
+<b>Texto em negrito</b>
+```
+
+ou
+
+```
+<img src=x onerror=alert('XSS')>
+```
+
+para entender como o navegador interpreta o conteúdo.
+
+## Observações de segurança
+
+* Projeto feito apenas para aprendizado.
 * Não possui backend ou armazenamento de dados.
-* Ideal para entender riscos básicos ao inserir conteúdo em páginas web.
 * Nunca utilize `innerHTML` com dados do usuário sem validação ou sanitização.
+* Aplicações reais devem filtrar e tratar entradas antes de exibir conteúdo.
 
 ## Autor
 
 | [<img src="https://github.com/DevLabatut.png" width=115><br><sub>DevLabatut</sub>](https://github.com/DevLabatut) |
 | :---------------------------------------------------------------------------------------------------------------: |
-
-
