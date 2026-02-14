@@ -1,6 +1,6 @@
 ## Teste XSS — innerHTML vs innerText vs textContent
 
-Projeto simples em HTML e JavaScript para demonstrar a diferença entre **innerHTML**, **innerText** e **textContent**, mostrando como entradas do usuário podem afetar a página e gerar riscos básicos de XSS (Cross-Site Scripting).
+Projeto simples em HTML com JavaScript embutido para demonstrar as diferenças entre innerHTML, innerText e textContent. O exemplo mostra como entradas do usuário podem impactar a página e evidenciar riscos básicos de XSS (Cross-Site Scripting).
 
 ## Preview
 
@@ -65,4 +65,5 @@ Digite qualquer conteúdo e clique em **Testar** para ver a diferença entre os 
 
 | [<img src="https://github.com/DevLabatut.png" width=115><br><sub>DevLabatut</sub>](https://github.com/DevLabatut) |
 | :---------------------------------------------------------------------------------------------------------------: |
+
 
