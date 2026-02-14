@@ -2,7 +2,7 @@
 
 Projeto simples em HTML e JavaScript para demonstrar a diferença entre **innerHTML**, **innerText** e **textContent**, mostrando como entradas do usuário podem afetar a página e gerar riscos básicos de XSS (Cross-Site Scripting).
 
-### Preview
+## Preview
 
 <img src="preview.png" width="400">
 
@@ -65,3 +65,4 @@ Digite qualquer conteúdo e clique em **Testar** para ver a diferença entre os 
 
 | [<img src="https://github.com/DevLabatut.png" width=115><br><sub>DevLabatut</sub>](https://github.com/DevLabatut) |
 | :---------------------------------------------------------------------------------------------------------------: |
+
